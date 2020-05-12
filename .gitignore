@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# untrack code:blocks layout and compiler files 
+LittlevGL.depend
+LittlevGL.layout
