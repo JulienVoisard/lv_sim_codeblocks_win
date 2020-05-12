@@ -16,6 +16,8 @@
 					<Add option="-DLV_CONF_INCLUDE_SIMPLE=1" />
 					<Add directory="." />
 					<Add directory="lvgl" />
+					<Add directory="../.." />
+					<Add directory="../../embeded/source/pages" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -38,7 +40,40 @@
 			<Add option="-Wall" />
 			<Add directory="." />
 		</Compiler>
-		<Unit filename="lv_conf.h" />
+		<Unit filename="../../embeded/source/pages/images/ArrowLeft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/pages/images/ArrowRightGreen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/pages/images/blank.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/pages/images/check.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/pages/images/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/pages/images/sliders.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/pages/images/speed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/pages/lv_conf.h" />
+		<Unit filename="../../embeded/source/pages/multi_editor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/pages/multi_editor.h" />
+		<Unit filename="../../embeded/source/pages/styles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/pages/styles.h" />
+		<Unit filename="../../embeded/source/pages/tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/pages/tests.h" />
 		<Unit filename="lv_drivers/display/R61581.c">
 			<Option compilerVar="CC" />
 		</Unit>
