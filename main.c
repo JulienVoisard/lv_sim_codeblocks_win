@@ -12,7 +12,7 @@
 
 #include "lvgl/lvgl.h"
 #include "lv_drivers/win_drv.h"
-#include "lv_examples/lv_apps/demo/demo.h"
+#include "tests.h"
 #include "lv_examples/lv_apps/benchmark/benchmark.h"
 #include "lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.h"
 
@@ -68,7 +68,7 @@ int main(int argc, char** argv)
 
     /*Check the themes too*/
     lv_disp_set_default(lv_windows_disp);
-    demo_create();
+    lv_tests();
     //lv_test_theme_2();
     //lv_tutorial_animations();
 #if WIN32
