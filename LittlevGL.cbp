@@ -17,7 +17,9 @@
 					<Add directory="." />
 					<Add directory="lvgl" />
 					<Add directory="../.." />
-					<Add directory="../../embeded/source/pages" />
+					<Add directory="../../embeded/source/user_interface" />
+					<Add directory="../../embeded/source/user_interface/images" />
+					<Add directory="../../embeded/source/user_interface/pages" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -30,6 +32,12 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="." />
+					<Add directory="lvgl" />
+					<Add directory="../.." />
+					<Add directory="../../embeded/source/user_interface" />
+					<Add directory="../../embeded/source/user_interface/images" />
+					<Add directory="../../embeded/source/user_interface/pages" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -40,40 +48,40 @@
 			<Add option="-Wall" />
 			<Add directory="." />
 		</Compiler>
-		<Unit filename="../../embeded/source/pages/images/ArrowLeft.c">
+		<Unit filename="../../embeded/source/user_interface/gUI.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/pages/images/ArrowRightGreen.c">
+		<Unit filename="../../embeded/source/user_interface/gUI.h" />
+		<Unit filename="../../embeded/source/user_interface/images/ArrowLeft.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/pages/images/blank.c">
+		<Unit filename="../../embeded/source/user_interface/images/ArrowRightGreen.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/pages/images/check.c">
+		<Unit filename="../../embeded/source/user_interface/images/blank.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/pages/images/delete.c">
+		<Unit filename="../../embeded/source/user_interface/images/check.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/pages/images/sliders.c">
+		<Unit filename="../../embeded/source/user_interface/images/delete.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/pages/images/speed.c">
+		<Unit filename="../../embeded/source/user_interface/images/sliders.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/pages/lv_conf.h" />
-		<Unit filename="../../embeded/source/pages/multi_editor.c">
+		<Unit filename="../../embeded/source/user_interface/images/speed.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/pages/multi_editor.h" />
-		<Unit filename="../../embeded/source/pages/styles.c">
+		<Unit filename="../../embeded/source/user_interface/lv_conf.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/multi_editor.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/pages/styles.h" />
-		<Unit filename="../../embeded/source/pages/tests.c">
+		<Unit filename="../../embeded/source/user_interface/pages/multi_editor.h" />
+		<Unit filename="../../embeded/source/user_interface/styles.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/pages/tests.h" />
+		<Unit filename="../../embeded/source/user_interface/styles.h" />
 		<Unit filename="lv_drivers/display/R61581.c">
 			<Option compilerVar="CC" />
 		</Unit>
