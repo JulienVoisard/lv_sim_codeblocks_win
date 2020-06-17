@@ -19,7 +19,9 @@
 					<Add directory="../.." />
 					<Add directory="../../embeded/source/user_interface" />
 					<Add directory="../../embeded/source/user_interface/images" />
+					<Add directory="../../embeded/source/user_interface/icons" />
 					<Add directory="../../embeded/source/user_interface/pages" />
+					<Add directory="../../embeded/source/user_interface/additional_ressources" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -751,8 +753,6 @@
 			<code_completion>
 				<search_path add="E:\Projects\LittlevGL\" />
 			</code_completion>
-			<envvars />
-			<debugger />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
