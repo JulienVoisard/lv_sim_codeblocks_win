@@ -40,6 +40,8 @@
 					<Add directory="../../embeded/source/user_interface" />
 					<Add directory="../../embeded/source/user_interface/images" />
 					<Add directory="../../embeded/source/user_interface/pages" />
+					<Add directory="../../embeded/source/user_interface/additional_ressources" />
+					<Add directory="../../embeded/source/user_interface/icons" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -50,36 +52,122 @@
 			<Add option="-Wall" />
 			<Add directory="." />
 		</Compiler>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/lv_font_roboto_10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/lv_font_roboto_14.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/lv_font_roboto_20_compressed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/lv_font_roboto_24_compressed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/lv_font_roboto_34_compressed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/lv_font_roboto_48_compressed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/display_data_structures.h" />
 		<Unit filename="../../embeded/source/user_interface/gUI.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/gUI.h" />
-		<Unit filename="../../embeded/source/user_interface/images/ArrowLeft.c">
+		<Unit filename="../../embeded/source/user_interface/icons/icon_alert.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/user_interface/images/ArrowRightGreen.c">
+		<Unit filename="../../embeded/source/user_interface/icons/icon_angle.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/user_interface/images/blank.c">
+		<Unit filename="../../embeded/source/user_interface/icons/icon_arrowLeft.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/user_interface/images/check.c">
+		<Unit filename="../../embeded/source/user_interface/icons/icon_arrowRight.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/user_interface/images/delete.c">
+		<Unit filename="../../embeded/source/user_interface/icons/icon_blank.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/user_interface/images/sliders.c">
+		<Unit filename="../../embeded/source/user_interface/icons/icon_check.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/user_interface/images/speed.c">
+		<Unit filename="../../embeded/source/user_interface/icons/icon_clock.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_cross.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_edit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_logo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_more.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_pause.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_play.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_power.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_rewind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_running.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_settings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_sliders.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_speed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_stop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_stopsign.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_thermometer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_trash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/list.h" />
 		<Unit filename="../../embeded/source/user_interface/lv_conf.h" />
-		<Unit filename="../../embeded/source/user_interface/pages/multi_editor.c">
+		<Unit filename="../../embeded/source/user_interface/pages/multi_editor.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_home.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/user_interface/pages/multi_editor.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_home.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_multieditor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_multieditor.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_screensaver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_screensaver.h" />
 		<Unit filename="../../embeded/source/user_interface/styles.c">
 			<Option compilerVar="CC" />
 		</Unit>
