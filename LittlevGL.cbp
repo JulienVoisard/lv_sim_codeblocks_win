@@ -16,6 +16,16 @@
 					<Add option="-DLV_CONF_INCLUDE_SIMPLE=1" />
 					<Add directory="." />
 					<Add directory="lvgl" />
+					<Add directory="../../embeded/source/user_interface" />
+					<Add directory="../../embeded/source/user_interface/additional_ressources" />
+					<Add directory="../../embeded/source/user_interface/icons" />
+					<Add directory="../../embeded/source/user_interface/pages" />
+					<Add directory="../../embeded/source/user_interface/strings" />
+					<Add directory="../../../MultiVarioLCD" />
+					<Add directory="../../embeded/source/backend/diagram" />
+					<Add directory="../../embeded/source/backend/settings" />
+					<Add directory="../../embeded/source/backend/machine" />
+					<Add directory="../../embeded/source/backend/management" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -38,7 +48,268 @@
 			<Add option="-Wall" />
 			<Add directory="." />
 		</Compiler>
-		<Unit filename="lv_conf.h" />
+		<Unit filename="../../embeded/source/backend/diagram/diagram.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/diagram/diagram.h" />
+		<Unit filename="../../embeded/source/backend/diagram/diagram_display.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/diagram/diagram_display.h" />
+		<Unit filename="../../embeded/source/backend/diagram/diagram_execution.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/diagram/diagram_execution.h" />
+		<Unit filename="../../embeded/source/backend/machine/machine_communication_pcb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/machine/machine_communication_pcb.h" />
+		<Unit filename="../../embeded/source/backend/machine/machine_lamp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/machine/machine_lamp.h" />
+		<Unit filename="../../embeded/source/backend/machine/machine_state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/machine/machine_state.h" />
+		<Unit filename="../../embeded/source/backend/management/management_machine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/management/management_machine.h" />
+		<Unit filename="../../embeded/source/backend/management/management_production.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/management/management_production.h" />
+		<Unit filename="../../embeded/source/backend/management/management_stats.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/management/management_stats.h" />
+		<Unit filename="../../embeded/source/backend/settings/settings_machine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/settings/settings_machine.h" />
+		<Unit filename="../../embeded/source/backend/settings/settings_production.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/settings/settings_production.h" />
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_14.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_14_medium.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_16_medium.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_20_medium.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_24.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_34.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_48.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/diagram.h" />
+		<Unit filename="../../embeded/source/user_interface/display_data_structures.h" />
+		<Unit filename="../../embeded/source/user_interface/display_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/display_functions.h" />
+		<Unit filename="../../embeded/source/user_interface/gUI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/gUI.h" />
+		<Unit filename="../../embeded/source/user_interface/icons/icon_alert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_angle_bigger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_arrowLeft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_arrowRight.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_bars_32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_bars_big.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_blank.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_build_32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_calendar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_check.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_clock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_corner_right_up.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_cross.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_edit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_flat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_forward.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_logo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_more.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_pause.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_play.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_plus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_plus_in_circle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_plus_minus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_power.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_rewind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_rotate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_ruler_24.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_running.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_settings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_sliders.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_slope.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_slope_down.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_speed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_stop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_stopsign.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_thermometer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_trash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_wrench.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/list.h" />
+		<Unit filename="../../embeded/source/user_interface/lv_conf.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_diagram_editor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_diagram_editor.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_diagram_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_diagram_list.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_home.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_home.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_multieditor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_multieditor.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_screensaver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_screensaver.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_textentry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_textentry.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/widget_header.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/widget_header.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/widget_modal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/widget_modal.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/widgets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/widgets.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/wizard_start_production.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/wizard_start_production.h" />
+		<Unit filename="../../embeded/source/user_interface/strings/strings_from_enum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/strings/strings_from_enum.h" />
+		<Unit filename="../../embeded/source/user_interface/strings/strings_from_memore_by_enum.h" />
+		<Unit filename="../../embeded/source/user_interface/strings/strings_from_memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/strings/strings_from_memory.h" />
+		<Unit filename="../../embeded/source/user_interface/styles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/styles.h" />
 		<Unit filename="lv_drivers/display/R61581.c">
 			<Option compilerVar="CC" />
 		</Unit>
