@@ -26,6 +26,7 @@
 					<Add directory="../../embeded/source/backend/settings" />
 					<Add directory="../../embeded/source/backend/machine" />
 					<Add directory="../../embeded/source/backend/management" />
+					<Add directory="simulator_modules" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -1147,6 +1148,10 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="simulator_modules/mTime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/mTime.h" />
 		<Extensions>
 			<code_completion>
 				<search_path add="E:\Projects\LittlevGL\" />
