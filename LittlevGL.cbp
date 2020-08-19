@@ -60,26 +60,19 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/backend/diagram/diagram_execution.h" />
-		<Unit filename="../../embeded/source/backend/machine/machine_communication_pcb.c">
+		<Unit filename="../../embeded/source/backend/machine/machine_communication.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/backend/machine/machine_communication_pcb.h" />
+		<Unit filename="../../embeded/source/backend/machine/machine_communication.h" />
+		<Unit filename="../../embeded/source/backend/machine/machine_definitions.h" />
 		<Unit filename="../../embeded/source/backend/machine/machine_lamp.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/backend/machine/machine_lamp.h" />
-		<Unit filename="../../embeded/source/backend/machine/machine_state.c">
+		<Unit filename="../../embeded/source/backend/management/management.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/backend/machine/machine_state.h" />
-		<Unit filename="../../embeded/source/backend/management/management_machine.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="../../embeded/source/backend/management/management_machine.h" />
-		<Unit filename="../../embeded/source/backend/management/management_production.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="../../embeded/source/backend/management/management_production.h" />
+		<Unit filename="../../embeded/source/backend/management/management.h" />
 		<Unit filename="../../embeded/source/backend/management/management_stats.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -122,8 +115,6 @@
 		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_48.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/user_interface/diagram.h" />
-		<Unit filename="../../embeded/source/user_interface/display_data_structures.h" />
 		<Unit filename="../../embeded/source/user_interface/display_functions.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -225,6 +216,9 @@
 		<Unit filename="../../embeded/source/user_interface/icons/icon_running.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_running_32.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_settings.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -277,6 +271,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/page_screensaver.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_stats.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_stats.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/page_textentry.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -285,6 +283,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/widget_header.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/widget_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/widget_list.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/widget_modal.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -293,6 +295,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/widgets.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/wizard_machine_settings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/wizard_machine_settings.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_start_production.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -301,7 +307,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/strings/strings_from_enum.h" />
-		<Unit filename="../../embeded/source/user_interface/strings/strings_from_memore_by_enum.h" />
 		<Unit filename="../../embeded/source/user_interface/strings/strings_from_memory.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -314,6 +319,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_drivers/display/R61581.h" />
+		<Unit filename="lv_drivers/display/SHARP_MIP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_drivers/display/SHARP_MIP.h" />
 		<Unit filename="lv_drivers/display/SSD1963.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -322,6 +331,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_drivers/display/ST7565.h" />
+		<Unit filename="lv_drivers/display/UC1610.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_drivers/display/UC1610.h" />
 		<Unit filename="lv_drivers/display/fbdev.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -350,10 +363,18 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_drivers/indev/keyboard.h" />
+		<Unit filename="lv_drivers/indev/libinput.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_drivers/indev/libinput_drv.h" />
 		<Unit filename="lv_drivers/indev/mouse.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lv_drivers/indev/mouse.h" />
+		<Unit filename="lv_drivers/indev/mousewheel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lv_drivers/indev/mousewheel.h" />
 		<Unit filename="lv_drivers/lv_drv_conf_templ.h" />
 		<Unit filename="lv_drivers/win_drv.c">
 			<Option compilerVar="CC" />
@@ -653,8 +674,17 @@
 		</Unit>
 		<Unit filename="lvgl/lv_conf_template.h" />
 		<Unit filename="lvgl/lvgl.h" />
+		<Unit filename="lvgl/porting/lv_port_disp_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/porting/lv_port_disp_template.h" />
+		<Unit filename="lvgl/porting/lv_port_fs_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/porting/lv_port_fs_template.h" />
+		<Unit filename="lvgl/porting/lv_port_indev_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/porting/lv_port_indev_template.h" />
 		<Unit filename="lvgl/src/lv_api_map.h" />
 		<Unit filename="lvgl/src/lv_conf_checker.h" />
@@ -1090,6 +1120,30 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_widgets/lv_win.h" />
+		<Unit filename="lvgl/tests/lv_test_assert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/tests/lv_test_assert.h" />
+		<Unit filename="lvgl/tests/lv_test_conf.h" />
+		<Unit filename="lvgl/tests/lv_test_core/lv_test_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/tests/lv_test_core/lv_test_core.h" />
+		<Unit filename="lvgl/tests/lv_test_core/lv_test_obj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/tests/lv_test_core/lv_test_obj.h" />
+		<Unit filename="lvgl/tests/lv_test_core/lv_test_style.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/tests/lv_test_core/lv_test_style.h" />
+		<Unit filename="lvgl/tests/lv_test_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/tests/lv_test_objx/lv_test_cont.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/tests/lv_test_objx/lv_test_cont.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
