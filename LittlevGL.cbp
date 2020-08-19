@@ -26,6 +26,7 @@
 					<Add directory="../../embeded/source/backend/settings" />
 					<Add directory="../../embeded/source/backend/machine" />
 					<Add directory="../../embeded/source/backend/management" />
+					<Add directory="simulator_modules" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -382,30 +383,6 @@
 		<Unit filename="lv_drivers/win_drv.h" />
 		<Unit filename="lv_drv_conf.h" />
 		<Unit filename="lv_ex_conf.h" />
-		<Unit filename="lv_examples/assets/img_cogwheel_alpha16.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/assets/img_cogwheel_argb.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/assets/img_cogwheel_chroma_keyed.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/assets/img_cogwheel_indexed16.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/assets/img_cogwheel_rgb.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/assets/lv_font_roboto_12_compr_az.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/assets/lv_font_roboto_16_compr_az.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/assets/lv_font_roboto_28_compr_az.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/lv_apps/benchmark/benchmark.h" />
 		<Unit filename="lv_examples/lv_apps/demo/demo.h" />
 		<Unit filename="lv_examples/lv_apps/sysmon/sysmon.h" />
@@ -461,237 +438,33 @@
 		<Unit filename="lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.h" />
 		<Unit filename="lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.h" />
 		<Unit filename="lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.h" />
-		<Unit filename="lv_examples/src/lv_demo_benchmark/lv_demo_benchmark.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_benchmark/lv_demo_benchmark.h" />
-		<Unit filename="lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.h" />
-		<Unit filename="lv_examples/src/lv_demo_stress/lv_demo_stress.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_stress/lv_demo_stress.h" />
-		<Unit filename="lv_examples/src/lv_demo_widgets/lv_demo_widgets.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_demo_widgets/lv_demo_widgets.h" />
 		<Unit filename="lv_examples/src/lv_ex_get_started/lv_ex_get_started.h" />
-		<Unit filename="lv_examples/src/lv_ex_get_started/lv_ex_get_started_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_get_started/lv_ex_get_started_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_get_started/lv_ex_get_started_3.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style.h" />
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_10.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_11.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_3.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_4.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_5.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_6.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_7.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_8.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_style/lv_ex_style_9.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_arc/lv_ex_arc_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_arc/lv_ex_arc_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_bar/lv_ex_bar_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_btn/lv_ex_btn_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_btn/lv_ex_btn_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_btnmatrix/lv_ex_btnmatrix_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_calendar/lv_ex_calendar_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_canvas/lv_ex_canvas_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_canvas/lv_ex_canvas_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_chart/lv_ex_chart_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_checkbox/lv_ex_checkbox_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_cont/lv_ex_cont_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_cpicker/lv_ex_cpicker_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_cpicker/lv_ex_cpicker_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_dropdown/lv_ex_dropdown_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_dropdown/lv_ex_dropdown_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_gauge/lv_ex_gauge_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_3.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/imgbtn_blue.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/imgbtn_green.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/lv_ex_imgbtn_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_keyboard/lv_ex_keyboard_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_3.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_led/lv_ex_led_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_line/lv_ex_line_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_linemeter/lv_ex_linemeter_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_list/lv_ex_list_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_msgbox/lv_ex_msgbox_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_msgbox/lv_ex_msgbox_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_obj/lv_ex_obj_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_objmask/lv_ex_objmask_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_objmask/lv_ex_objmask_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_page/lv_ex_page_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_roller/lv_ex_roller_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_slider/lv_ex_slider_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_slider/lv_ex_slider_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_spinbox/lv_ex_spinbox_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_spinner/lv_ex_spinner_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_switch/lv_ex_switch_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_table/lv_ex_table_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_tabview/lv_ex_tabview_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_templ.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_tileview/lv_ex_tileview_1.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_widgets.h" />
-		<Unit filename="lv_examples/src/lv_ex_widgets/lv_ex_win/lv_ex_win_1.c">
+		<Unit filename="lvgl/examples/porting/lv_port_disp_template.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lvgl/examples/porting/lv_port_disp_template.h" />
+		<Unit filename="lvgl/examples/porting/lv_port_fs_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/examples/porting/lv_port_fs_template.h" />
+		<Unit filename="lvgl/examples/porting/lv_port_indev_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/examples/porting/lv_port_indev_template.h" />
 		<Unit filename="lvgl/lv_conf_template.h" />
 		<Unit filename="lvgl/lvgl.h" />
-		<Unit filename="lvgl/porting/lv_port_disp_template.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/porting/lv_port_disp_template.h" />
-		<Unit filename="lvgl/porting/lv_port_fs_template.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/porting/lv_port_fs_template.h" />
-		<Unit filename="lvgl/porting/lv_port_indev_template.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/porting/lv_port_indev_template.h" />
 		<Unit filename="lvgl/src/lv_api_map.h" />
 		<Unit filename="lvgl/src/lv_conf_checker.h" />
 		<Unit filename="lvgl/src/lv_conf_internal.h" />
-		<Unit filename="lvgl/src/lv_core/lv_debug.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/src/lv_core/lv_debug.h" />
 		<Unit filename="lvgl/src/lv_core/lv_disp.c">
 			<Option compilerVar="CC" />
@@ -768,6 +541,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_font.h" />
+		<Unit filename="lvgl/src/lv_font/lv_font_dejavu_16_persian_hebrew.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_font_fmt_txt.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -835,11 +611,18 @@
 		<Unit filename="lvgl/src/lv_font/lv_font_montserrat_48.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lvgl/src/lv_font/lv_font_simsun_16_cjk.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_font_unscii_8.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_symbol_def.h" />
 		<Unit filename="lvgl/src/lv_fonts/lv_font_builtin.h" />
+		<Unit filename="lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.h" />
 		<Unit filename="lvgl/src/lv_hal/lv_hal.h" />
 		<Unit filename="lvgl/src/lv_hal/lv_hal_disp.c">
 			<Option compilerVar="CC" />
@@ -869,14 +652,15 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_bidi.h" />
-		<Unit filename="lvgl/src/lv_misc/lv_circ.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_circ.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_color.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_color.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_debug.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_font.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_fs.c">
 			<Option compilerVar="CC" />
@@ -919,6 +703,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_misc/lv_txt.h" />
+		<Unit filename="lvgl/src/lv_misc/lv_txt_ap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_misc/lv_txt_ap.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_types.h" />
 		<Unit filename="lvgl/src/lv_misc/lv_utils.c">
 			<Option compilerVar="CC" />
@@ -1120,6 +908,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_widgets/lv_win.h" />
+		<Unit filename="lvgl/src/lvgl.h" />
 		<Unit filename="lvgl/tests/lv_test_assert.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -1147,6 +936,10 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="simulator_modules/mTime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/mTime.h" />
 		<Extensions>
 			<code_completion>
 				<search_path add="E:\Projects\LittlevGL\" />
