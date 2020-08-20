@@ -26,6 +26,12 @@ uint64_t mTime_get_time_unix64();
 /** get the time in struct tm format **/
 void mTime_get_time_tm(struct tm *std_time);
 
+/** transform tm to unixtime **/
+uint64_t mTime_unix64_from_tm(struct tm std_time);
+
+/** transform unix64 to tm**/
+struct tm mTime_tm_from_unix64(uint64_t unix_time);
+
 /**
  * calibrate the LPC1788 RTC by giving the actual time. This function
  * also set the current RTC time
