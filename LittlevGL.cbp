@@ -252,6 +252,14 @@
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/list.h" />
 		<Unit filename="../../embeded/source/user_interface/lv_conf.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/file_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/file_template.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/modal_two_weeks_date_picker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/modal_two_weeks_date_picker.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/page_diagram_editor.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -296,10 +304,15 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/widgets.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/wizard.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_machine_settings.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_machine_settings.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_preheat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_preheat.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_start_production.c">
 			<Option compilerVar="CC" />
 		</Unit>
