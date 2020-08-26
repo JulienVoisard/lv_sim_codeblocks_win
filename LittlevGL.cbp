@@ -27,6 +27,8 @@
 					<Add directory="../../embeded/source/backend/machine" />
 					<Add directory="../../embeded/source/backend/management" />
 					<Add directory="simulator_modules" />
+					<Add directory="../../embeded/source/cjson" />
+					<Add directory="simulator_modules/fatfilesystem" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -86,6 +88,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/backend/settings/settings_production.h" />
+		<Unit filename="../../embeded/source/cjson/cJSON.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/cjson/cJSON.h" />
+		<Unit filename="../../embeded/source/cjson/cJSON_Utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/cjson/cJSON_Utils.h" />
 		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_10.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -244,6 +254,9 @@
 		<Unit filename="../../embeded/source/user_interface/icons/icon_thermometer.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_thermometer_24.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_trash.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -313,6 +326,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_preheat.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_schedule_stop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_schedule_stop.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_start_production.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -949,10 +966,41 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="simulator_modules/eventMan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/eventMan.h" />
+		<Unit filename="simulator_modules/fatfilesystem/diskio.h" />
+		<Unit filename="simulator_modules/fatfilesystem/ff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/fatfilesystem/ff.h" />
+		<Unit filename="simulator_modules/fatfilesystem/ffconf.h" />
+		<Unit filename="simulator_modules/fatfilesystem/ffsystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/fatfilesystem/ffunicode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/fatfilesystem/fs_diskio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/fatfilesystem/mFatFS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/fatfilesystem/mFatFS.h" />
+		<Unit filename="simulator_modules/mComIOBoard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/mComIOBoard.h" />
 		<Unit filename="simulator_modules/mTime.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="simulator_modules/mTime.h" />
+		<Unit filename="simulator_modules/xSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/xSignal.h" />
 		<Extensions>
 			<code_completion>
 				<search_path add="E:\Projects\LittlevGL\" />
