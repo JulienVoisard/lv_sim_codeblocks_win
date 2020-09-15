@@ -29,6 +29,8 @@
 					<Add directory="simulator_modules" />
 					<Add directory="../../embeded/source/cjson" />
 					<Add directory="simulator_modules/fatfilesystem" />
+					<Add directory="../../embeded/source/module" />
+					<Add directory="../../embeded/source/backend/memory" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -80,6 +82,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/backend/management/management_stats.h" />
+		<Unit filename="../../embeded/source/backend/memory/memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/memory/memory.h" />
 		<Unit filename="../../embeded/source/backend/settings/settings_machine.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -96,6 +102,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/cjson/cJSON_Utils.h" />
+		<Unit filename="../../embeded/source/module/xSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/module/xSignal.h" />
 		<Unit filename="../../embeded/source/user_interface/additional_ressources/roboto_10.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -164,6 +174,12 @@
 		<Unit filename="../../embeded/source/user_interface/icons/icon_check.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_chevron_down_24.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_chevron_up_24.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_clock.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -188,6 +204,12 @@
 		<Unit filename="../../embeded/source/user_interface/icons/icon_forward.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_help_20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_internet_24.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_logo.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -200,7 +222,13 @@
 		<Unit filename="../../embeded/source/user_interface/icons/icon_pause.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_pause_24.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_play.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_play_20.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_plus.c">
@@ -228,6 +256,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_running_32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_save_20.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_settings.c">
@@ -263,12 +294,16 @@
 		<Unit filename="../../embeded/source/user_interface/icons/icon_wrench.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../embeded/source/user_interface/list.h" />
+		<Unit filename="../../embeded/source/user_interface/linked_list.h" />
 		<Unit filename="../../embeded/source/user_interface/lv_conf.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/file_template.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/file_template.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/modal_time_picker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/modal_time_picker.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/modal_two_weeks_date_picker.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -285,6 +320,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/page_home.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_home_no_prod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_home_no_prod.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_manual_operations.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_manual_operations.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/page_multieditor.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -322,14 +365,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_machine_settings.h" />
-		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_preheat.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_preheat.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_schedule_stop.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_schedule_stop.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_warmup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/wizard_modal_warmup.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_start_production.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -966,6 +1009,7 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="simulator_modules/FreeRTOS.h" />
 		<Unit filename="simulator_modules/eventMan.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -989,6 +1033,12 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="simulator_modules/fatfilesystem/mFatFS.h" />
+		<Unit filename="simulator_modules/lpc177x_8x_gpio.h" />
+		<Unit filename="simulator_modules/lpc_types.h" />
+		<Unit filename="simulator_modules/mAxisMan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/mAxisMan.h" />
 		<Unit filename="simulator_modules/mComIOBoard.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -997,10 +1047,11 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="simulator_modules/mTime.h" />
-		<Unit filename="simulator_modules/xSignal.c">
+		<Unit filename="simulator_modules/modbus_master_rtu.h" />
+		<Unit filename="simulator_modules/task.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="simulator_modules/xSignal.h" />
+		<Unit filename="simulator_modules/task.h" />
 		<Extensions>
 			<code_completion>
 				<search_path add="E:\Projects\LittlevGL\" />
