@@ -31,6 +31,7 @@
 					<Add directory="simulator_modules/fatfilesystem" />
 					<Add directory="../../embeded/source/module" />
 					<Add directory="../../embeded/source/backend/memory" />
+					<Add directory="../../embeded/source/axis" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -53,6 +54,11 @@
 			<Add option="-Wall" />
 			<Add directory="." />
 		</Compiler>
+		<Unit filename="../../embeded/source/axis/mAxisData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/axis/mAxisData.h" />
+		<Unit filename="../../embeded/source/axis/mAxis_def.h" />
 		<Unit filename="../../embeded/source/backend/diagram/diagram.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -65,6 +71,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/backend/diagram/diagram_execution.h" />
+		<Unit filename="../../embeded/source/backend/machine/machine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/machine/machine.h" />
 		<Unit filename="../../embeded/source/backend/machine/machine_communication.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -82,9 +92,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/backend/management/management_stats.h" />
-		<Unit filename="../../embeded/source/backend/memory/memory.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="../../embeded/source/backend/memory/memory.h" />
 		<Unit filename="../../embeded/source/backend/settings/settings_machine.c">
 			<Option compilerVar="CC" />
@@ -1047,6 +1054,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="simulator_modules/mTime.h" />
+		<Unit filename="simulator_modules/memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="simulator_modules/modbus_master_rtu.h" />
 		<Unit filename="simulator_modules/task.c">
 			<Option compilerVar="CC" />

@@ -1,8 +1,30 @@
-
+#include "mTaskDef.h"
 #include "eventMan.h"
+
+
+static void eventMan_update(void *vParam)
+{
+	(void)(vParam);
+	Event_Queue_t mess;
+
+	// setup all backend module
+
+
+
+		// update of all backend element
+		machine_communication_update();
+		diagram_execution_update();
+		machine_update();
+}
 
 int32_t eventMan_setup(void)
 {
+    machine_communication_setup();
+	machine_setup();
+    	lv_task_create(eventMan_update, 10, TASK_EVENT_MAN_PRIORITY, NULL);
+
+	return 0;
+
 }
 
 /**
@@ -14,3 +36,6 @@ int32_t eventMan_setup(void)
 int32_t eventMan_sendEvent(Event_Type_e type, void *data)
 {
 }
+
+
+

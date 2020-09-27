@@ -74,6 +74,10 @@ void mComIOBoard_set_digital_outputs(uint32_t outputs)
 {
 }
 
+void mComIOBoard_reset_digital_outputs(uint32_t outputs)
+{
+}
+
 /** set the analog outputs 1 **/
 void mComIOBoard_set_analog_output_1(uint32_t a_output)
 {
