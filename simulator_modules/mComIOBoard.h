@@ -5,15 +5,16 @@
  *      Author: r.schluep
  */
 
-#include <stdint.h>
 #include <stdbool.h>
+#include <stdint.h>
+
 
 #ifndef MODULE_MCOMIOBOARD_H_
 #define MODULE_MCOMIOBOARD_H_
 
 #define HOSTNAME_MAX_LENGTH 16
-#define MAC_ADDRESS_LENGTH 6
-#define IP_LENGTH 16
+#define MAC_ADDRESS_LENGTH  6
+#define IP_LENGTH           16
 
 /** network info, used by ESP32 **/
 typedef struct
@@ -48,7 +49,6 @@ typedef struct
 	uint16_t crc;
 } Com_Lcd_t;
 
-
 /** get the inputs **/
 uint32_t mComIOBoard_get_inputs();
 
@@ -72,6 +72,8 @@ uint16_t mComIOBoard_get_bat_voltage();
 
 /** set the outputs values. return 0 if queue send is completed **/
 void mComIOBoard_set_digital_outputs(uint32_t outputs);
+
+void mComIOBoard_reset_digital_outputs(uint32_t outputs);
 
 /** set the analog outputs 1 **/
 void mComIOBoard_set_analog_output_1(uint32_t a_output);

@@ -7,16 +7,19 @@
 /** mTime setup. used to configure the RTC peripheral **/
 int32_t mTime_setup()
 {
+    return 0;
 }
 
 /** set the time in the RTC using a given unix time stamp **/
 int32_t mTime_set_time_unix64(uint64_t unix_time)
 {
+    return 0;
 }
 
 /** set the time in the RTC using a standard struct tm **/
 int32_t mTime_set_time_tm(struct tm *std_time)
 {
+    return 0;
 }
 
 /** get the time in unix time stamp format **/

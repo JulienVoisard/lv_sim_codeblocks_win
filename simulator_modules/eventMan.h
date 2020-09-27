@@ -20,13 +20,12 @@ typedef enum
 	EVENT_TYPE_alarm_air,
 	EVENT_TYPE_alarm_modbus_com,
 	EVENT_TYPE_machine_state_change,
-	EVENT_TYPE_machine_stop_request,
+	EVENT_TYPE_command_stop,
 	EVENT_TYPE_machine_stopped, // Falling edge of the start machine has been detected
-	EVENT_TYPE_machine_emergency_stop,
 	EVENT_TYPE_machine_regular_stop,
 	EVENT_TYPE_machine_started,      // The machine started
 	EVENT_TYPE_machine_start_warmup, // a scheduled start is imminent
-	EVENT_TYPE_machine_start_diagram,
+	EVENT_TYPE_command_start_diagram,
 	EVENT_TYPE_loading_ready, // Bar feeder has loaded a new bar and is ready
 	EVENT_TYPE_loading_start, // Bar feeder has loaded a new bar and is ready
 	EVENT_TYPE_loading_end,   // Bar feeder has loaded a new bar and is ready
