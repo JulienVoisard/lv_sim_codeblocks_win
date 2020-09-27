@@ -28,10 +28,10 @@
 					<Add directory="../../embeded/source/backend/management" />
 					<Add directory="simulator_modules" />
 					<Add directory="../../embeded/source/cjson" />
-					<Add directory="simulator_modules/fatfilesystem" />
 					<Add directory="../../embeded/source/module" />
 					<Add directory="../../embeded/source/backend/memory" />
 					<Add directory="../../embeded/source/axis" />
+					<Add directory="../../embeded/source/interface" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -58,6 +58,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/axis/mAxisData.h" />
+		<Unit filename="../../embeded/source/axis/mAxisStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/axis/mAxisStatus.h" />
 		<Unit filename="../../embeded/source/axis/mAxis_def.h" />
 		<Unit filename="../../embeded/source/backend/diagram/diagram.c">
 			<Option compilerVar="CC" />
@@ -109,6 +113,8 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/cjson/cJSON_Utils.h" />
+		<Unit filename="../../embeded/source/interface/lpc_types.h" />
+		<Unit filename="../../embeded/source/module/mTaskDef.h" />
 		<Unit filename="../../embeded/source/module/xSignal.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -1021,27 +1027,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="simulator_modules/eventMan.h" />
-		<Unit filename="simulator_modules/fatfilesystem/diskio.h" />
-		<Unit filename="simulator_modules/fatfilesystem/ff.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="simulator_modules/fatfilesystem/ff.h" />
-		<Unit filename="simulator_modules/fatfilesystem/ffconf.h" />
-		<Unit filename="simulator_modules/fatfilesystem/ffsystem.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="simulator_modules/fatfilesystem/ffunicode.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="simulator_modules/fatfilesystem/fs_diskio.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="simulator_modules/fatfilesystem/mFatFS.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="simulator_modules/fatfilesystem/mFatFS.h" />
 		<Unit filename="simulator_modules/lpc177x_8x_gpio.h" />
-		<Unit filename="simulator_modules/lpc_types.h" />
 		<Unit filename="simulator_modules/mAxisMan.c">
 			<Option compilerVar="CC" />
 		</Unit>
