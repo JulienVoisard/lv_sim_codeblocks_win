@@ -93,14 +93,11 @@ int32_t mAxisMan_accelerate(Axis_e id, int32_t start_speed_centi,
  * maintained stop at a certain position. **/
 int32_t mAxisMan_stop_free(Axis_e id);
 int32_t mAxisMan_stop_maintained(Axis_e id);
-int32_t mAxisMan_stop_maintained_at(Axis_e id, int32_t angle_abs_centi);
-/* an axis can be turned on again by using mAxis_set_speed or
- * mAxis_accelerate
- */
-
-/** rotate a stopped axis, if the axis is not stopped returns an error*/
-int32_t mAxisMan_nombrage(Axis_e id, int32_t angle_rel_centi);
-int32_t mAxisMan_nombrage_to(Axis_e id, int32_t angle_abs_centi);
+int32_t mAxisMan_stop_angle_abs(Axis_e id, int32_t angle_centi);
+int32_t mAxisMan_pos_angle_abs(Axis_e id, int32_t angle_centi);
+int32_t mAxisMan_pos_angle_rel(Axis_e id, int32_t angle_centi);
+int32_t mAxisMan_pos_linear_abs(Axis_e id, int32_t pos_micro);
+int32_t mAxisMan_pos_linear_rel(Axis_e id, int32_t pos_micro);
 
 /** set max torque of a motor **/
 int32_t mAxisMan_set_max_torque(Axis_e id, int32_t torque_centi);
