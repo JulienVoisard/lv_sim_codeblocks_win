@@ -1040,6 +1040,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="simulator_modules/mTime.h" />
+		<Unit filename="simulator_modules/mUtils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="simulator_modules/mUtils.h" />
 		<Unit filename="simulator_modules/memory.c">
 			<Option compilerVar="CC" />
 		</Unit>
