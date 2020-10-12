@@ -94,24 +94,33 @@ int32_t mAxisMan_stop_free(Axis_e id)
 {
 	return 0;
 }
+
 int32_t mAxisMan_stop_maintained(Axis_e id)
 {
 	return 0;
 }
-int32_t mAxisMan_stop_maintained_at(Axis_e id, int32_t angle_abs_centi)
-{
-	return 0;
-}
-/* an axis can be turned on again by using mAxis_set_speed or
- * mAxis_accelerate
- */
 
-/** rotate a stopped axis, if the axis is not stopped returns an error*/
-int32_t mAxisMan_nombrage(Axis_e id, int32_t angle_rel_centi)
+int32_t mAxisMan_stop_angle_abs(Axis_e id, int32_t angle_centi)
 {
 	return 0;
 }
-int32_t mAxisMan_nombrage_to(Axis_e id, int32_t angle_abs_centi)
+
+int32_t mAxisMan_pos_angle_abs(Axis_e id, int32_t angle_centi)
+{
+	return 0;
+}
+
+int32_t mAxisMan_pos_angle_rel(Axis_e id, int32_t angle_centi)
+{
+	return 0;
+}
+
+int32_t mAxisMan_pos_linear_abs(Axis_e id, int32_t pos_micro)
+{
+	return 0;
+}
+
+int32_t mAxisMan_pos_linear_rel(Axis_e id, int32_t pos_micro)
 {
 	return 0;
 }

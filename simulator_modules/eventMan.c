@@ -1,5 +1,10 @@
 #include "mTaskDef.h"
+#include "FreeRTOS.h"
+#include "task.h"
 #include "eventMan.h"
+#include "machine.h"
+#include "machine_communication.h"
+#include "diagram_execution.h"
 
 
 static void eventMan_update(void *vParam)
@@ -35,6 +40,7 @@ int32_t eventMan_setup(void)
  */
 int32_t eventMan_sendEvent(Event_Type_e type, void *data)
 {
+    return 1;
 }
 
 
