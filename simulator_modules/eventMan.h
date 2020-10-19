@@ -19,7 +19,6 @@ typedef enum
 	EVENT_TYPE_alarm_bar_feeder, // bar feeder security line has been opened
 	EVENT_TYPE_alarm_air,
 	EVENT_TYPE_alarm_modbus_com,
-	EVENT_TYPE_machine_state_change,
 	EVENT_TYPE_command_stop,
 	EVENT_TYPE_machine_stopped, // Falling edge of the start machine has been detected
 	EVENT_TYPE_machine_regular_stop,

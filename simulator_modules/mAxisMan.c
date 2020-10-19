@@ -86,6 +86,11 @@ int32_t mAxisMan_accelerate(Axis_e id, int32_t start_speed_centi,
 	return 0;
 }
 
+int32_t mAxisMan_execution_stop(Axis_e id)
+{
+    return 0;
+}
+
 /** stop an axis, there are three ways, either a simple stop
  * meaning the motor is free afterwards, a maintained stop, hence the
  * motor is not free to move and stays at the stop position. Finally the
