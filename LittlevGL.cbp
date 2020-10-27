@@ -329,6 +329,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/page_diagram_list.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_hobbing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_hobbing.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/page_home.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -95,6 +95,7 @@ int32_t mAxisMan_execution_stop(Axis_e id);
 int32_t mAxisMan_stop_free(Axis_e id);
 int32_t mAxisMan_stop_maintained(Axis_e id);
 int32_t mAxisMan_stop_angle_abs(Axis_e id, int32_t angle_centi);
+int32_t mAxisMan_homing(Axis_e id);
 int32_t mAxisMan_pos_angle_abs(Axis_e id, int32_t angle_centi);
 int32_t mAxisMan_pos_angle_rel(Axis_e id, int32_t angle_centi);
 int32_t mAxisMan_pos_linear_abs(Axis_e id, int32_t pos_micro);
