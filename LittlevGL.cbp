@@ -32,6 +32,7 @@
 					<Add directory="../../embeded/source/backend/memory" />
 					<Add directory="../../embeded/source/axis" />
 					<Add directory="../../embeded/source/interface" />
+					<Add directory="../../embeded/source/backend/opcua" />
 				</Compiler>
 				<Linker>
 					<Add library="mingw32" />
@@ -97,6 +98,10 @@
 		</Unit>
 		<Unit filename="../../embeded/source/backend/management/management_stats.h" />
 		<Unit filename="../../embeded/source/backend/memory/memory.h" />
+		<Unit filename="../../embeded/source/backend/opcua/opcua_communication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/backend/opcua/opcua_communication.h" />
 		<Unit filename="../../embeded/source/backend/settings/settings_machine.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -157,6 +162,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/gUI.h" />
+		<Unit filename="../../embeded/source/user_interface/icons/icon_activity_32.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_alert.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -230,6 +238,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_more.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/icons/icon_network.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/icons/icon_pause.c">
@@ -309,10 +320,6 @@
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/linked_list.h" />
 		<Unit filename="../../embeded/source/user_interface/lv_conf.h" />
-		<Unit filename="../../embeded/source/user_interface/pages/file_template.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="../../embeded/source/user_interface/pages/file_template.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/modal_time_picker.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -329,6 +336,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/page_diagram_list.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_graphs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_graphs.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/page_hobbing.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -349,6 +360,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/page_multieditor.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/page_network_settings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/page_network_settings.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/page_screensaver.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -369,6 +384,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/widget_list.h" />
+		<Unit filename="../../embeded/source/user_interface/pages/widget_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../embeded/source/user_interface/pages/widget_menu.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/widget_modal.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -377,7 +396,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../embeded/source/user_interface/pages/widgets.h" />
-		<Unit filename="../../embeded/source/user_interface/pages/wizard.h" />
 		<Unit filename="../../embeded/source/user_interface/pages/wizard_machine_settings.c">
 			<Option compilerVar="CC" />
 		</Unit>
