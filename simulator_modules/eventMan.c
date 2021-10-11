@@ -5,6 +5,7 @@
 #include "machine.h"
 #include "machine_communication.h"
 #include "diagram_execution.h"
+#include "mTime.h"
 
 
 static void eventMan_update(void *vParam)
@@ -40,8 +41,9 @@ int32_t eventMan_setup(void)
  */
 int32_t eventMan_sendEvent(Event_Type_e type, void *data)
 {
-    return 1;
+	return 1;
 }
+
 
 
 

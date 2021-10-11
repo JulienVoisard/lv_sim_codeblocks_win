@@ -91,15 +91,14 @@ int32_t mAxisMan_accelerate(Axis_e id, int32_t start_speed_centi,
  * meaning the motor is free afterwards, a maintained stop, hence the
  * motor is not free to move and stays at the stop position. Finally the
  * maintained stop at a certain position. **/
-int32_t mAxisMan_execution_stop(Axis_e id);
 int32_t mAxisMan_stop_free(Axis_e id);
 int32_t mAxisMan_stop_maintained(Axis_e id);
 int32_t mAxisMan_stop_angle_abs(Axis_e id, int32_t angle_centi);
-int32_t mAxisMan_homing(Axis_e id);
 int32_t mAxisMan_pos_angle_abs(Axis_e id, int32_t angle_centi);
 int32_t mAxisMan_pos_angle_rel(Axis_e id, int32_t angle_centi);
 int32_t mAxisMan_pos_linear_abs(Axis_e id, int32_t pos_micro);
 int32_t mAxisMan_pos_linear_rel(Axis_e id, int32_t pos_micro);
+void mAxisMan_remove_all_cmd(Axis_e id);
 
 /** set max torque of a motor **/
 int32_t mAxisMan_set_max_torque(Axis_e id, int32_t torque_centi);
@@ -108,5 +107,8 @@ int32_t mAxisMan_reset_max_torque(Axis_e id);
 
 /** get alarm info */
 int32_t mAxisMan_get_alarm_info(Axis_e id);
+
+int32_t mAxisMan_execution_stop(Axis_e id);
+int32_t mAxisMan_homing(Axis_e id);
 
 #endif /* MODBUS_TAXISMAN_H_ */

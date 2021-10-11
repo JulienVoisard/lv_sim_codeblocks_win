@@ -7,8 +7,22 @@
 #include <dirent.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include "mTaskDef.h"
+#include "FreeRTOS.h"
 
-char *path_in_windows = "C:/Users/yanni/Desktop/simulator_files";
+char *path_in_windows = "./simulator_files";
+
+/**
+ * save information into the SD card using a save_cb function
+ */
+int32_t memory_save_file(void (*save_cb)(void))
+{
+	int32_t ret = 0;
+
+    save_cb();
+
+	return ret;
+}
 
 /** memory load json from file
  * given a file name it retrieves the json string and passes it to the parser
@@ -111,6 +125,18 @@ int32_t memory_save_json_to_file(char *file_name, cJSON *head)
 	free(json_txt);
 
 	return 0;
+}
+
+int32_t memory_delete_file(char *file_name)
+{
+	int32_t ret = 0;
+    char file_path[256];
+
+	snprintf(file_path, 256, "%s/%s", path_in_windows, file_name);
+
+	ret = remove(file_path);
+
+	return ret;
 }
 
 /** memory directory count file
